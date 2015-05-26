@@ -1,0 +1,17 @@
+<h1>Task4</h1>     
+<h2>View: Show</h2>   
+<table>
+  <tr>
+    <th>Рубрика</th>
+    <th>Кол-во соответствующих товаров</th>
+
+  </tr>
+
+  <% @result.each do |row| %>
+  <tr>
+    <td><%= row.title %></td>
+    <td><%= row.products_count %></td>
+  </tr>
+  <% end %>
+</table>
+

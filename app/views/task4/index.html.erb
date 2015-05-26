@@ -1,0 +1,11 @@
+<%= button_to "task 4", task4_show_path,  :method => "get" %>
+<%= label_tag 'executing sql query' %><br>
+
+<%= button_to "task5", task4_ask_file_path,  :method => "get" %>
+<%= label_tag 'Sending csv file to user' %><br>
+
+<%= button_to "task 6", task4_ask_file_resque_path,  :method => "get" %>
+<%= label_tag 'resque task - basic' %><br>
+
+<%= button_to "task 6", task4_ask_file_resque_with_status_path,  :method => "get" %>
+<%= label_tag 'Check your mail after clicking resque button/ resque task - advanced - NOT WORKING RIGHT' %><br>
