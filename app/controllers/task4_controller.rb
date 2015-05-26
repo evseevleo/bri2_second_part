@@ -7,7 +7,7 @@ class Task4Controller < ApplicationController
   def index
   end
 
-  # 
+  # Используется в заданиях 4 и 5
   def ask
    return Rubric.
       joins(:products).
